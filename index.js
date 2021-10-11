@@ -1,9 +1,9 @@
 //--Código, ignorar, não mexa.--
+//--Code, ignore, don't change anythig.--
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require('./config.json');
-const axios = require('axios');
 require ('colors')
 
 client.once('ready', function(){
@@ -28,14 +28,14 @@ client.once('ready', function(){
 });
 
 //--Início do Código.--
+//--Start of the Code.--
+
+//--Código, ignorar, não mexa.--
+//--Code, ignore, don't change anythig.--
 
 client.on("message", message => {
 
-//--ID Do Host da Raid abaixo  vvvvvvvvvvvvvvvvvvv Troque para o ID da conta que pode iniciar a Raid!--
-
-if (message.author.id !== "ID DO HOST DA RAID") return
-
-//--Código, ignorar, não mexa.--
+if (message.author.id !== config.id) return
 
 if (!message.content.startsWith(config.prefix) || message.author.bot) return;
 if (message.content[0] !== config.prefix) return;
@@ -43,6 +43,7 @@ const args = message.content.slice(config.prefix.length) .split(/ +/);
 const command = args.shift().toLowerCase();
 
 //--Comando de Raid!--
+//--Raid command!--
 
 if (command === "raid") { 
 var interval = setInterval (function () {
@@ -73,12 +74,14 @@ Mensagem 6
 ];
 
 //--Código, ignorar, não mexa.--
+//--Code, ignore, don't change anythig.--
 
 var rand = list[Math.floor(Math.random() * list.length)];
 message.channel.send(rand)
 .catch(console.error);
 
 //--Lista de coisas que o Console diz.--
+//--All things console says during the raid.--
 
     var list2 = [
         "[Raid Online] Será que eles tão gostando? 1 Flood foi enviado! =)".brightCyan,
@@ -103,6 +106,7 @@ message.channel.send(rand)
         }, 1 * 1000); 
 
 //--Comando de Stop, não mexa!--
+//--Stop command, do not touch!--
 
 } else if (command === "stop") {
     console.clear();
@@ -113,3 +117,4 @@ message.channel.send(rand)
 client.login(config.token);
 
 //--Fim do código--
+//--End of the code--
