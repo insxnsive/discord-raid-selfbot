@@ -16,4 +16,6 @@ This is for Educational purposes or Bot Testing only.
 - Insert your Bot/Worm Account's Token, at the ""
 - And the Host ID of the raid.
 
+- Now you're ready to go, make sure to open "startbot.bat" to every Bot.
+
 <hr>
