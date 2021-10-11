@@ -1,4 +1,4 @@
 @echo off
-title SelftBot Italia v2 Nate Status Ativo
+title Raid Selfbot By Nate
 node index.js
 pause
