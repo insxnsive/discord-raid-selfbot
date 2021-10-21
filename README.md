@@ -19,3 +19,11 @@ This is for Educational purposes or Bot Testing only.
 - Now you're ready to go, make sure to open "startbot.bat" to every Bot.
 
 <hr>
+
+# Instructions:
+
+- The Host of the Raid, needs to say: "raid" on any chat, so all the Bots can Spam.
+
+- Change the "Mensagem 1/6" to whatever you want to Spam.
+
+<hr>
