@@ -13,7 +13,7 @@ This is for Educational purposes or Bot Testing only.
 
 - Open up "install.bat"
 
-- Insert your Bot/Worm Account's Token, at the ""
+- Insert your Bot/Worm Account Token, at the ""
 - And the Host ID of the raid.
 
 - Now you're ready to go, make sure to open "startbot.bat" to every Bot.
@@ -22,8 +22,9 @@ This is for Educational purposes or Bot Testing only.
 
 # Instructions:
 
-- The Host of the Raid, needs to say: "raid" on any chat, so all the Bots can Spam.
+- The Host of the Raid, needs to say: "raid" on the targetted chat, so all Bots can Spam on that channel.
 
 - Change the "Mensagem 1/6" to whatever you want to Spam.
+- (If the Anti-Raid bot the server uses auto mutes same messages, switch all the messages to different ones so the Bot can randomize what it will send)
 
 <hr>
